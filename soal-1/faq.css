@@ -1,0 +1,57 @@
+body {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 221, 0);
+    margin: 20px auto;
+    border: solid;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+.awal{
+    text-align: center;
+}
+.a h1{
+    text-align: center;
+}
+.b{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    max-width: 30%;
+}
+footer {
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 221, 0);
+    margin: 20px auto;
+    border: solid;
+}
+
+.pp img {
+    position: relative;
+    width: 5%;
+    left: 83%;
+    border-radius: 50%;
+}
+
+main{
+    margin: 20px auto;
+    border: solid;
+}

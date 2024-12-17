@@ -1,0 +1,41 @@
+body {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 221, 0);
+    margin: 20px auto;
+    border: solid;
+}
+
+.a h1{
+    text-align: center;
+}
+
+.b{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    max-width: 20%;
+}
+main{
+    margin: 20px auto;
+    border: solid;
+}
+footer {
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 221, 0);
+    margin: 20px auto;
+    border: solid;
+}
+.pp img {
+    position: relative;
+    width: 5%;
+    left: 83%;
+    border-radius: 50%;
+}
